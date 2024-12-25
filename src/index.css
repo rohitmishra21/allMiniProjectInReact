@@ -9,3 +9,9 @@ body{
 .stores::-webkit-scrollbar{
     display: none;
 }
+.contaner::-webkit-scrollbar{
+    display: none;
+}
+.chatSection::-webkit-scrollbar{
+    display: none;
+}

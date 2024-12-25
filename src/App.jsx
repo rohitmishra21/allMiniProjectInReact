@@ -4,6 +4,8 @@ import ColorGenerator from './components/ColorGenerator'
 
 import InsectGenrator from './components/InsectGenrator'
 import Story from './components/Story'
+import KeyboardEvent from './components/KeyboardEvent'
+import Whatapp from './components/Whatapp'
 
 
 const App = () => {
@@ -13,6 +15,8 @@ const App = () => {
       <ColorGenerator />
       <InsectGenrator />
       <Story />
+      <KeyboardEvent />
+      <Whatapp />
     </div>
   )
 }

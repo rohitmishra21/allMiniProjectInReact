@@ -27,7 +27,7 @@ const InsectGenrator = () => {
             <div className='md:w-1/2'>
                 <div className=' text-4xl p-7 absolute  uppercase font-bold text-black flex gap-7'>
                     <h5>6.<span>&#x29;</span></h5>
-                    <h1 className=''>Color Genrator</h1>
+                    <h1 className=''>Image Genrator</h1>
                 </div>
                 <div onClick={imgHendler} className='w-full   relative h-screen'>
                     {genrateImg.length === 0 ? null : <img className='w-40 z-50 h-40 object-cover absolute' src={genrateImg}

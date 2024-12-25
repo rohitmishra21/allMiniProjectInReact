@@ -14,7 +14,7 @@ const ColorGenerator = () => {
         colorRef.current.style.color = ` rgb(${val1},${val2},${val3})`;
     }
     return (
-        <div className='md:flex'>
+        <div className='md:flex '>
             <div className='md:w-1/2 h-screen flex flex-col justify-center items-center'>
                 <div className=' text-4xl uppercase font-bold text-black flex gap-7'>
                     <h1>3.<span>&#x29;</span></h1>
