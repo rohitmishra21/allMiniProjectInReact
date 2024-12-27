@@ -4,6 +4,7 @@ import { MdOutlineQrCodeScanner } from "react-icons/md";
 import { IoCameraOutline } from "react-icons/io5";
 import { HiDotsVertical } from "react-icons/hi";
 import Chat from './Chat';
+import Calculator from './Calculator';
 
 const Whatapp = () => {
 
@@ -120,7 +121,7 @@ const Whatapp = () => {
     return (
         <div className='md:flex'>
 
-            <div className='w-1/2 bg-violet-400 flex flex-col gap-6 justify-center items-center h-screen'>
+            <div className='md:w-1/2 bg-violet-400 flex flex-col gap-6 justify-center items-center h-screen'>
                 <div className='text-4xl uppercase  font-bold text-black flex gap-7'>
                     <h1>11.<span>&#x29;</span></h1>
                     <h1 className=''>WhatsApp</h1>
@@ -165,7 +166,7 @@ const Whatapp = () => {
                     </div>}
                 </div>
             </div>
-
+            <Calculator />
         </div>
     )
 }
